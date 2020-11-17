@@ -4,6 +4,9 @@
 
 Un árbol de decisión es una forma gráfica y analítica de   representar   todos   los   eventos   (sucesos)   que   pueden  surgir  a  partir  de  una  decisión  asumida  en  cierto momento. 
 
+Los árboles de decisión son una familia popular de métodos de clasificación y regresión.
+El aprendizaje del árbol de decisiones es uno de los enfoques de modelado predictivo utilizados en estadística, minería de datos y aprendizaje automático. Utiliza un árbol de decisiones (como modelo predictivo) para pasar de las observaciones sobre un elemento (representado en las ramas) a las conclusiones sobre el valor objetivo del elemento (representado en las hojas). Los árboles de decisión en los que la variable de destino puede tomar valores continuos (normalmente números reales) se denominan árboles de regresión. Los árboles de decisión se encuentran entre los algoritmos de aprendizaje automático más populares dada su inteligibilidad y simplicidad.
+
 Dado un conjunto de datos se fabrican diagramas de construcciones lógicas, muy similares a los sistemas de predicción basados en reglas, que sirven para representar y categorizar una serie de condiciones que ocurren de forma sucesiva, para la resolución de un problema.
 
 ![alt text](https://runestone.academy/runestone/static/pythoned/_images/booktree.png)
