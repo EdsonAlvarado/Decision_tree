@@ -73,3 +73,10 @@ Para resolver este problema de selección de atributos, los investigadores traba
 - [x] **Ratio de ganancia**
 - [x] **Reducción de la varianza**
 - [x] **Chi-cuadrado**
+
+###### ¿Cuál es mejor?, ¿Los Modelos Lineales or de Arboles?
+ 
+***Bueno, depende del tipo de problema que estés resolviendo.***
+- Si la relación entre las variables dependientes e independientes está bien aproximada por un modelo lineal, la regresión lineal superará al modelo basado en árboles.
+- Si hay una alta no linealidad y una relación compleja entre las variables dependientes e independientes, un modelo de árbol superará a un método de regresión clásico.
+- Si necesita construir un modelo que sea fácil de explicar a las personas, un modelo de árbol de decisiones siempre funcionará mejor que un modelo lineal. Los modelos de árboles de decisión son incluso más sencillos de interpretar que la regresión lineal.
