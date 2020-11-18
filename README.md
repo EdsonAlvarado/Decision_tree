@@ -74,7 +74,7 @@ Para resolver este problema de selección de atributos, los investigadores traba
 - [x] **Reducción de la varianza**
 - [x] **Chi-cuadrado**
 
-###### ¿Cuál es mejor?, ¿Los Modelos Lineales or de Arboles?
+## ¿Cuál es mejor?, ¿Los Modelos Lineales or de Arboles?
  
 ***Bueno, depende del tipo de problema que estés resolviendo.***
 - Si la relación entre las variables dependientes e independientes está bien aproximada por un modelo lineal, la regresión lineal superará al modelo basado en árboles.
