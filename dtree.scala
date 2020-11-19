@@ -6,7 +6,14 @@ import org.apache.spark.ml.feature.{IndexToString, StringIndexer, VectorIndexer}
 
 import org.apache.spark.sql.SparkSession
 
-val spark = SparkSession.builder().getOrCreate()
+//val spark = SparkSession.builder().getOrCreate()
+
+object DecisionTree {
+  def main(args: Array[String]): Unit = {
+    val spark = SparkSession
+      .builder
+      .appName("dtree")
+      .getOrCreate()
 
 // Load the data stored in LIBSVM format as a DataFrame.
 val data = spark.read.format("libsvm").load("sample_libsvm_data.txt")
@@ -46,3 +53,5 @@ println(s"Test Error = ${(1.0 - accuracy)}")
 val treeModel = model.stages(2).asInstanceOf[DecisionTreeClassificationModel]
 println(s"Learned classification tree model:\n ${treeModel.toDebugString}")
 
+  }
+}
