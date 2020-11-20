@@ -59,3 +59,33 @@ println(s"Learned classification tree model:\n ${treeModel.toDebugString}")
 
   }
 }
+
+// Preview of the last lines output
+/*  +--------------+-----+--------------------+
+    |predictedLabel|label|            features|
+    +--------------+-----+--------------------+
+    |           1.0|  0.0|(692,[122,123,124...|
+    |           0.0|  0.0|(692,[122,123,148...|
+    |           0.0|  0.0|(692,[123,124,125...|
+    |           1.0|  0.0|(692,[124,125,126...|
+    |           0.0|  0.0|(692,[126,127,128...|
+    |           0.0|  0.0|(692,[126,127,128...|
+    |           0.0|  0.0|(692,[126,127,128...|
+    |           0.0|  0.0|(692,[127,128,129...|
+    |           1.0|  0.0|(692,[129,130,131...|
+    |           0.0|  0.0|(692,[152,153,154...|
+    +--------------+-----+--------------------+
+    only showing top 10 rows
+
+    Test Error = 0.18518518518518523
+    Learned classification tree model:
+    DecisionTreeClassificationModel (uid=dtc_b395cba8d741) of depth 2 with 5 nodes
+      If (feature 351 <= 30.5)
+      If (feature 126 <= 253.5)
+        Predict: 1.0
+      Else (feature 126 > 253.5)
+        Predict: 0.0
+      Else (feature 351 > 30.5)
+      Predict: 0.0
+  */
+  
